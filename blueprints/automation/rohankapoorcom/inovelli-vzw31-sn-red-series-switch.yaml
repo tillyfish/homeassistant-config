@@ -10,7 +10,6 @@ blueprint:
       description: List of available Inovelli VZW31-SN switches.
       selector:
         device:
-          integration: zwave_js
           manufacturer: Inovelli
           model: VZW31-SN
           multiple: true
